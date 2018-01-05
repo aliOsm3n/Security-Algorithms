@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aliothman.mutimedia.Affine">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp">
+
+
+
+    <EditText
+        android:id="@+id/m"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter m"
+        android:background="@drawable/rounded_edittext"/>
+
+    <EditText
+    android:id="@+id/k"
+    android:inputType="number"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+    android:hint="Enter K"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Input"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Encrypt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_button"/>
+
+
+
+    <TextView
+        android:id="@+id/Cipher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cipher" />
+
+    <Button
+    android:id="@+id/DEcrypt"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="DEcrypt"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_button"/>
+
+    <TextView
+        android:id="@+id/m_inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="m_inverse" />
+
+
+    <TextView
+        android:id="@+id/Plain_Cipher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plain_Cipher" />
+
+
+</LinearLayout>

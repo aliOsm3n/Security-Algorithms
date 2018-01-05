@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aliothman.mutimedia.RSAmain">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp">
+
+    <EditText
+        android:id="@+id/P"
+        android:inputType="number"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter P"
+        android:background="@drawable/rounded_edittext"/>
+
+    <EditText
+        android:id="@+id/Q"
+        android:inputType="number"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Q"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/qprimeWithZ"
+        android:inputType="number"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="enter E relative prime with z "
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter Input "
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/Encrypt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_button"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Pfreq"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="p" />
+
+        <TextView
+            android:id="@+id/qfreq"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Q" />
+
+        <TextView
+            android:id="@+id/N"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="N" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Zout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Z" />
+
+        <TextView
+            android:id="@+id/E"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="EncrypTxt" />
+
+        <TextView
+            android:id="@+id/D"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="DEcrypTxt" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------------------------------EncRyptMessage-------------------------------" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/outputEncryopted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="encryptedMessage" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------------------------------DecRyptedMessage---------------------------" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/outputDecryptopted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrypted : " />
+
+
+
+
+</LinearLayout>

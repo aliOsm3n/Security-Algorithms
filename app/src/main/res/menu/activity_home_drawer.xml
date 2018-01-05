@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="">
+        </item>
+
+        <item android:title="">
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Affine"
+            android:icon="@drawable/lock"
+            android:title="Affine" />
+        <item
+            android:id="@+id/transposition"
+            android:icon="@drawable/lock"
+            android:title="Trans" />
+        <item
+            android:id="@+id/Rsa"
+            android:icon="@drawable/lock"
+            android:title="Rsa" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About me" />
+    </group>
+
+</menu>
